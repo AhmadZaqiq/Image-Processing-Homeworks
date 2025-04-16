@@ -9,5 +9,3 @@ This program performs edge detection on grayscale images using the Sobel operato
 - Smoothed edge detection (image is blurred before applying Sobel).
 
 In both cases, a thresholding step is applied to isolate significant edges based on gradient magnitude. The two output images are displayed and saved automatically in the same directory as the Python script.
-
-> ⚙️ This implementation does **not** require NumPy and uses only the standard libraries and PIL (Pillow).
